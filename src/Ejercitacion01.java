@@ -3,6 +3,7 @@ import java.util.List;
 
 public class Ejercitacion01 {
     public static void main(String[] args) {
+        // Saber si un numero es primo
         for (int i = 1; i <= 100; i++) {
             System.out.println("El numero " + i + " " + verificarPrimos(i));
         }
